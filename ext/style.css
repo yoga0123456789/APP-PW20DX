@@ -1,0 +1,28 @@
+:root
+{
+    --putih : #FFFFFF;
+    --unggu : #FFCCCCCC;
+    --kosong :0;
+    --padding_custom : 10px;
+    --boorder_custom : 1px solid #140505;
+}
+
+table {
+    width:100%; 
+    border-collapse:collapse;
+
+}
+
+th, td {
+    padding: var(--padding_custom);
+    border: var(--boorder_custom);
+}
+
+.bg_putih{
+    background: var(--putih);
+}
+
+.bg_unggu {
+    background: var(--unggu);
+
+}
